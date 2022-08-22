@@ -1,5 +1,7 @@
 import React from 'react';
 
+import './Modal.scss';
+
 interface ModalProps {
   handleClose: () => void;
   isAnimated: boolean;
